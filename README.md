@@ -2,7 +2,7 @@
 This Poker hand solver was designed and improved by Claude Opus.
 
 The evaluator maps a set of 5 poker cards to a total order (so you can compare any two 5‑card hands) using a small,  
-deterministic, combinatorially structured function. Here’s a clean mathematical decomposition of what it’s doing.  
+deterministic, combinatorially structured function.  
 The architecture is lexicographic, bit‑packed total order over 5‑card poker hands derived from rank‑frequency patterns and suit/straight constraints.  
 
 ## Inputs and basic encoding
