@@ -5,6 +5,8 @@ The evaluator maps a set of 5 poker cards to a total order (so you can compare a
 deterministic, combinatorially structured function.  
 The architecture is lexicographic, bit‑packed total order over 5‑card poker hands derived from rank‑frequency patterns and suit/straight constraints.  
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/554ff008-ab5b-49e9-b66b-2ee489dc59a9" />
+
 ## Inputs and basic encoding
 
 - **Input**: a list of 5 cards, each with:
